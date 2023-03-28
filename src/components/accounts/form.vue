@@ -3,6 +3,7 @@
     <div>
       <h6 class="q-ma-none "> Account</h6>
     </div>
+    hii
     <q-form class="q-my-md">
       <q-input dense lazy-rule :rules="nameRule" label="Account Name" outlined v-model="formData.account_name" />
       <q-input type="textarea" class="q-my-xs" dense label="Account Address" outlined
